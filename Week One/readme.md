@@ -1,4 +1,5 @@
 #The Plant Keeper
+![See example here](PSM_V40_D820_Clarinet_with_improved_key_construction.jpg)
 
 A stylish, useful machine to make sure your plant gets the water and sunlight it needs. This ceramic pot includes built-in light sensors on the inner, uppermost part of the pot, as well as water sensors in the sides of the pot.
 
