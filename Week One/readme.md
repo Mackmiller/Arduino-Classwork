@@ -6,6 +6,6 @@ A stylish, useful machine to make sure your plant gets the water and sunlight it
 
  Sensors within the walls of the pot detect water levels every 24 hours. Once a particular threshold for dryness is met, the blue light begins blinking. This signals the user to press the button. Water is released from the lip of the pot, where a water storage area is built within. It is recommended to replaced water supply every 1-2 months.
 
- An additional green button is available on select models, which would act similarly to the water button, except it would release plant food into the pot.
+ An additional green button is available on select models, which would act similarly to the water button, except it would release plant food into the pot.  
 
- !(PSM_V40_D820_Clarinet_with_improved_key_construction.jpg) 
+![See example here](PSM_V40_D820_Clarinet_with_improved_key_construction.jpg)
