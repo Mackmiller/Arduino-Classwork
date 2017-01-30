@@ -8,4 +8,4 @@ A stylish, useful machine to make sure your plant gets the water and sunlight it
 
  An additional green button is available on select models, which would act similarly to the water button, except it would release plant food into the pot.  
 
-![See example here](PSM_V40_D820_Clarinet_with_improved_key_construction.jpg)
+![See example here](plantkeeper.jpg)
