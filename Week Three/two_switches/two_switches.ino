@@ -1,8 +1,6 @@
 #define ledRed 13
 #define switch0Red 2 //sets to pin 2
 
-#define ledYel 12
-#define switch0Yel 1
 
 int switchState = 0;
 
