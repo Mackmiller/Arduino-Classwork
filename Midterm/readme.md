@@ -3,6 +3,7 @@
 ##1. Pitch recognition
 
 Inspiration: https://www.arduino.cc/en/Tutorial/TonePitchFollower?from=Tutorial.Tone2
+             https://www.arduino.cc/en/Tutorial/ToneMultiple
              https://www.arduino.cc/en/Tutorial/ToneKeyboard?from=Tutorial.Tone3
              https://www.hackster.io/lindsi8784/electronic-piano-keyboard-with-preset-songs-74ee7c?ref=search&ref_id=piano&offset=7
 
