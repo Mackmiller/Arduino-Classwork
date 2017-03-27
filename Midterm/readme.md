@@ -31,4 +31,7 @@ When button is released:
 
 1) louder speakers***
 
-2) Len Shustek sets up Playtune with four functions and one variable. The only function I used was tune_playscore. If I were to do this again, I would figure out how to incorporate the other functions into my code. 
+2) Len Shustek sets up Playtune with four functions and one variable. The only function I used was tune_playscore. If I were to do this again, I would figure out how to incorporate the other functions into my code.
+
+##Set-up photo, example video (Bach) and final product video/picture links:
+https://drive.google.com/open?id=0B1wwFJOwtbwjWkZxWjdramNFd0U
