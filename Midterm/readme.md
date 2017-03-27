@@ -1,26 +1,34 @@
-#Midterm Project Ideas
+#Midterm Project
+##Chord Quality Associations
 
-##1. Pitch recognition
+As a music major, I've learned the hard way that the more you learn about different aspects of music (music theory, ear training, etc) at a younger age, the more it will pay off down the line if you chose to pursue a major and/or a career in music.
 
-Inspiration: https://www.arduino.cc/en/Tutorial/TonePitchFollower?from=Tutorial.Tone2
-             https://www.arduino.cc/en/Tutorial/ToneMultiple
-             https://www.arduino.cc/en/Tutorial/ToneKeyboard?from=Tutorial.Tone3
-             https://www.hackster.io/lindsi8784/electronic-piano-keyboard-with-preset-songs-74ee7c?ref=search&ref_id=piano&offset=7
+I've created a program to help young children begin having associations with chord qualities. The very basic chord qualities are major and minor, which are associated with happiness and sadness, respectively. By using this device, kids will hear a major chord-based song (Here Comes the Sun) and associate it will a happy, bright quality because the song only plays while the smiling sun's yellow LED nose lights up. For the children that can read, there is a label for "major" right next to the button for the sun- instead of just associating happy visuals with happy-sounding chords, these older kids can actually put the terms major and minor to use(logic: I press the button and Mr. Sun lights up with a happy song- this demonstrates the major quality). In the same way, kids can press the other button that is located under a frowning rain cloud to begin associations with minor chords. When the button is pressed, the frowning rain cloud has a blue lED that lights up and a minor-chord based song begins playing ("Bydlo" from Pictures at an Exhibition).
 
-Something that is hard for people to grasp at first is the specific quality that each chord possesses, and how to tell the difference between the different chord types. For starters, major chord vs. minor chord: These two are associated with having happy and sad qualities, respectively. I would love to build a basic keyboard (like in the examples above) and then associate different quality chord with different LED colors. Everything I am reading online seems to say that the pitches can only be played one after the other, therefore I will have to program the arduino to figure out the chord quality based on a series of three pitches played in succession- each button may be programmed to be a different pitch, or it could be determined by frequency of pitch, or both(?). Once the arduino successfully matches the user input with a programmed chord, a light will turn on the arduino to indicate whether the chord played was major or minor. Yellow led for happy sound, therefore major in quality, blue led for sad sound, therefore minor in quality. However, a flaw to this is what to do if the input notes do not match one of the programmed chords. Also, there would be a problem with response if user does not know how to build a chord (maybe a solution to this would be having a limited number of note options).
+##Code plan
 
-Final project musings: This idea has room for further development into a product for young children to learn chord qualities. Using some sort of interface such as an animal or robot, facial expressions on this character can help communicate the sad or happy quality of the chord. This project can also expand into involving diminished chords (associated with sounding scary) and maybe potentially augmented chords (associated with dreamlike quality).
+Logic: When the button located under the sun is pressed, a yellow LED lights up and a happy, major-quality tune plays. When the button located under the cloud is pressed, a blue LED lights up and a sad, minor-quality tune plays.
 
-##2. Any variation on the above^^
+Pseudo code:
+When button is pressed:
+-turn LED on
+-play music
+When button is released:
+-turn LED off
+(song continues playing until end of clip)
 
-I think I put several project ideas into the first... different keyboard features, different user input, different methods of pitch detection, etc.
+##Some things I learned
 
-##3.
+1) command line execution: with a little outside help, I was able to modify Len Shustek's Playtune program so that I could run it on my Mac and convert any midi file I wanted. This was made possible through his additional little program called "miditones". The file is translated into binary and coded into a version of C. Attached are the folders for both, with original examples(Maple Rag and Bach) as well as the additional files(Beatles and Bydlo) that I converted.
 
-Inspiration: http://www.instructables.com/id/Singing-plant-Make-your-plant-sing-with-Arduino-/
+2) momentary buttons are a thing: I thought all pushbutton switches were momentary. So when I began to have issues with running my program just from switching to a bigger button, I initially thought there was a problem with the code. It took me hours to figure out that it was the hardware (yikes). So I went to RadioShack's going out of business sale and grabbed most of their remaining buttons to test out different kinds and realized that momentary buttons were a thing. And now I have an endless button supply.
 
-This combines two things I love: plants and sound! I think the idea of measuring capacitance to create sound seems really cool. I would definitely want to try different kinds of plants besides the ones pictured. What would happen if a user *carefully* touched the thorn of a cactus instead? What about on different areas of the cactus?
+3) polyphony is possible: Many of the libraries I went through did NOT use more than one pin- all three pitches were programmed through one pin and polyphony was created by "cheating"- playing the three pitches in rapid succession of one another. The result? You could kind of hear the chord, but it was boring, very mechanical sounding, and annoying. The solution that Len Shustek brings us is programming each pitch on a different pin and hooking all three pins up to the speaker.
 
-This can be expanded to just feeling different textures and objects and "hearing" the sound that the programs creates from your capacitance. Basically a different hands-on experience(literally) for users to interact with everyday objects differently than they would before.
+4) creating a user-friendly physical platform is tricky with an arduino.  
 
-Drawbacks- seems very complicated and maybe not achievable for a midterm project.
+##Some things I can improve
+
+1) louder speakers***
+
+2) Len Shustek sets up Playtune with four functions and one variable. The only function I used was tune_playscore. If I were to do this again, I would figure out how to incorporate the other functions into my code. 
