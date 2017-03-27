@@ -4,6 +4,8 @@ As a music major, I've learned the hard way that the more you learn about differ
 
 I've created a program to help young children begin having associations with chord qualities. The very basic chord qualities are major and minor, which are associated with happiness and sadness, respectively. By using this device, kids will hear a major chord-based song (Here Comes the Sun) and associate it will a happy, bright quality because the song only plays while the smiling sun's yellow LED nose lights up. For the children that can read, there is a label for "major" right next to the button for the sun- instead of just associating happy visuals with happy-sounding chords, these older kids can actually put the terms major and minor to use(logic: I press the button and Mr. Sun lights up with a happy song- this demonstrates the major quality). In the same way, kids can press the other button that is located under a frowning rain cloud to begin associations with minor chords. When the button is pressed, the frowning rain cloud has a blue lED that lights up and a minor-chord based song begins playing ("Bydlo" from Pictures at an Exhibition).
 
+I think it is important to note that I was originally just going to play a chord instead of a little tune, but I thought it would be more interesting to the user and just as effective to use the whole song. 
+
 CODE PLAN
 
 Logic: When the button located under the sun is pressed, a yellow LED lights up and a happy, major-quality tune plays. When the button located under the cloud is pressed, a blue LED lights up and a sad, minor-quality tune plays.
@@ -31,6 +33,12 @@ THINGS I CAN IMPROVE
 1) louder speakers***
 
 2) Len Shustek sets up Playtune with four functions and one variable. The only function I used was tune_playscore. If I were to do this again, I would figure out how to incorporate the other functions into my code.
+
+EXPANSION
+
+Next, I would try to incorporate other chord qualities, such as augmented and diminished. We typically associate augmented chords (whole tone scale) with a dream state, and diminished chords with a terrifying, person-tied-to-the-traintracks scenario. These chords have very specific associations, but they involve more elements and would be more compicated to display simply.
+
+
 
 LINK TO VIDEO/PICTURES:
 https://drive.google.com/open?id=0B1wwFJOwtbwjWkZxWjdramNFd0U
