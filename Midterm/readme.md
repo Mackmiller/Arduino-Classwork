@@ -42,8 +42,8 @@ Next, I would try to incorporate other chord qualities, such as augmented and di
 
 LINK TO VIDEOS:
 https://drive.google.com/open?id=0B1wwFJOwtbwjWkZxWjdramNFd0U
--Final video including the UI
--Video of Bach example that came with the github download
+
+-Final video including the UI and video of Bach example that came with the github download
 
 LIBRARIES
 
