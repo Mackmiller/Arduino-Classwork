@@ -4,7 +4,7 @@ As a music major, I've learned the hard way that the more you learn about differ
 
 I've created a program to help young children begin having associations with chord qualities. The very basic chord qualities are major and minor, which are associated with happiness and sadness, respectively. By using this device, kids will hear a major chord-based song (Here Comes the Sun) and associate it will a happy, bright quality because the song only plays while the smiling sun's yellow LED nose lights up. For the children that can read, there is a label for "major" right next to the button for the sun- instead of just associating happy visuals with happy-sounding chords, these older kids can actually put the terms major and minor to use(logic: I press the button and Mr. Sun lights up with a happy song- this demonstrates the major quality). In the same way, kids can press the other button that is located under a frowning rain cloud to begin associations with minor chords. When the button is pressed, the frowning rain cloud has a blue lED that lights up and a minor-chord based song begins playing ("Bydlo" from Pictures at an Exhibition).
 
-I think it is important to note that I was originally just going to play a chord instead of a little tune, but I thought it would be more interesting to the user and just as effective to use the whole song. 
+I think it is important to note that I was originally just going to play a chord instead of a little tune, but I thought it would be more interesting to the user and just as effective to use the whole song.
 
 CODE PLAN
 
@@ -42,3 +42,16 @@ Next, I would try to incorporate other chord qualities, such as augmented and di
 
 LINK TO VIDEO/PICTURES:
 https://drive.google.com/open?id=0B1wwFJOwtbwjWkZxWjdramNFd0U
+
+LIBRARIES
+
+I went through several other libraries before landing on Len's library.
+
+1) https://hackaday.io/project/6164-arduino-piano
+I initially was going to construct a keyboard-like structure onto the arduino, capable of playing 8 notes. I eventually deemed this as being too complicated for the user, especially since the goal was recognizing chord qualities, not to play the piano. But this is a great idea for a basic keyboard setup.
+
+2) https://github.com/cjforman/ArduinoPiano
+This was a cool library. I really like how the coder
+
+3) See "Take3" folder for code.
+This was my first real attempt at coding the chords. The coder programmed three notes to play in rapid succession of one another to sound like polyphony, which worked- to a certain extent. This library was a good back up plan until I found something more suitable. I ultimately did not use this library because it is very hard to distinguish the actual chord quality.
