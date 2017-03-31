@@ -20,7 +20,7 @@ When button is released:
 
 THINGS I LEARNED
 
-1) command line execution: with a little outside help, I was able to modify Len Shustek's Playtune program so that I could run it on my Mac and convert any midi file I wanted. This was made possible through his additional little program called "miditones". The file is translated into binary and coded into a version of C. Attached are the folders for both, with original examples(Maple Rag and Bach) as well as the additional files(Beatles and Bydlo) that I converted.
+1) command line execution: with a little outside help, I was able to modify Len Shustek's Playtune program so that I could run it on my Mac and convert any midi file I wanted. This was made possible through his additional little program called "miditones". The file is translated into binary and coded into a version of C. Attached are the folders for both, with the code for the original examples, as well as the additional files(Beatles and Bydlo) that I converted.
 
 2) momentary buttons are a thing: I thought all pushbutton switches were momentary. So when I began to have issues with running my program just from switching to a bigger button, I initially thought there was a problem with the code. It took me hours to figure out that it was the hardware (yikes). So I went to RadioShack's going out of business sale and grabbed most of their remaining buttons to test out different kinds and realized that momentary buttons were a thing. And now I have an endless button supply.
 
@@ -42,6 +42,9 @@ Next, I would try to incorporate other chord qualities, such as augmented and di
 
 LINK TO VIDEO/PICTURES:
 https://drive.google.com/open?id=0B1wwFJOwtbwjWkZxWjdramNFd0U
+-Final picture of the arduino set up
+-Final video including the UI
+-Video of Bach example that came with the github download
 
 LIBRARIES
 
