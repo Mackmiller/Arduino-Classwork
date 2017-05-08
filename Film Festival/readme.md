@@ -47,3 +47,7 @@ I realized very quickly that using arduino as my main coding handler couldn't ge
 
 NEXT
 I would like to add a sound component- maybe a microphone picks up noise and is able to blink the LED lights in the pattern that is clapped into the microphone, or something like that. I think I am definitely ready to add in an audio component to the idea of rhythmic visualization.
+
+REAL LIFE APPLICATION
+
+I think this idea would be a great start for a line of children's toys that could help jumpstart on a child's music education, especially in the areas of ear training and music theory, which tend to be put off until later. 
