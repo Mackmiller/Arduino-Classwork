@@ -10,5 +10,5 @@ This project was built using Processing, C++, and Arduino
 
 ## Contributors
 
-- [@mackmilllr](https://twitter.com/mackmilllr) Coder
+- [@mackmilllr](https://twitter.com/mackmilllr) Coder, Builder
 - [@zevensuy](https://twitter.com/Zevensuy) Advisor
